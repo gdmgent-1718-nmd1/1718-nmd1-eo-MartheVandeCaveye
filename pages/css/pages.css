@@ -12,7 +12,7 @@ body {
 }
 
 img {
-    max-width: 100%; /* Afbeeldingen responsive maken */
+    max-width: 100%;
 }
 
 
@@ -24,7 +24,7 @@ th{
 }
 
 tr{
-    color: white;
+    color: white; 
     margin-left: 50px;
     margin-right: 50px;
     margin: 50px;
@@ -40,3 +40,47 @@ table{
 p{
     color:hsla(284,65%,57%,1)
 }
+
+h3{
+    font-family: clip;
+    font-size: 59px;
+    color: #66b32e; 
+}
+
+h4{
+    font-family: lato;
+    font-size: 29px;
+    font-weight: bold;
+    color: #b24ad8;
+}
+
+h5{
+    font-family: lato;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: black;
+
+}
+
+h6{
+    font-family: lato;
+    font-size: 18px;
+    color: #1c66b0;
+}
+
+.button {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.button:hover{
+    cursor: pointer;
+    background-color: white;
+}
+
+.navigatiebalk{
+    background-color: #311c59;
+    color: hsla(284,65%,57%,1)
+}
+
